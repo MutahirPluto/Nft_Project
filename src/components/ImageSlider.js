@@ -75,7 +75,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
   console.log("imageIndex", imageIndex)
 
   return(
-    <div  style={{marginTop:"7rem"}}>
+    <div  style={{marginTop:"7rem"}} id="rarity">
 
       <div className={styles.rarity_div}>
         <h1  className={styles.rarity_heading}>Rarity</h1>

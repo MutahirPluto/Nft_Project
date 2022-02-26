@@ -10,7 +10,7 @@ import teamimg4 from "../Images/teamimg4.svg"
 
 const Team = () => {
   return (
-    <div    className={styles.team_main_div}>
+    <div    className={styles.team_main_div} id="team">
         <Container>
             <div className={styles.team_div}>
                 <h2>Team</h2>

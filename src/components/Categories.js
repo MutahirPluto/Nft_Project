@@ -8,12 +8,17 @@ import catogeryimg4 from "../Images/catogeryimg4.svg"
 import catogeryimg5 from "../Images/catogeryimg5.svg"
 import catogeryimg6 from "../Images/catogeryimg6.svg"
 import catogeryimg7 from "../Images/catogeryimg7.svg"
+import { HashLink } from "react-router-hash-link";
 
 
 
 const Home = () => {
   return (
-    <div >
+    <div id="categories">
+        {/* <BrowserRouter>
+     <HashLink to="/my-cool-page#my-cool-section">Goto Cool Section</HashLink>
+     </BrowserRouter> */}
+
         <Container>
             <div className={styles.Categories_main_div}>
                 <h3>Trait Categories</h3>

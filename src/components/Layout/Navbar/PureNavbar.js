@@ -7,11 +7,10 @@ import Web3Modal from "web3modal";
 import { connectWallet } from "../../../utils/connectWallet";
 import { useWeb3React } from "@web3-react/core";
 import {injectedConnector} from "../../../utils/connectors"
+import { BrowserRouter, Route, Router, Routes, Switch } from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
 
-
-
-
-
+import { Link } from "react-router-dom";
 
 
 function PuraNavbar(props) {
@@ -138,30 +137,38 @@ function PuraNavbar(props) {
           </div>
        :null
         }
-<Navbar  expand="lg"  >
+<Navbar  expand="lg" className='fixed-top'  style={{backgroundColor:"#161c2f"}} >
   
  
     <Container  >
-      {/* <Link href="/"> */}
       <img className={styles.logo} src='https://hzpad.pluton.ltd/static/media/vector-logo.601d54a8.png'  height={80} />
-      {/* </Link> */}
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
+    <BrowserRouter>
       <Nav
         className="me-auto my-2 my-lg-0"
         // style={{ maxHeight: '100px', color:"white", flex:"0.3", justifyContent:"space-between", border:"1px solid red", margin:"0px auto"}}
         navbarScroll
         id={styles.nav}
       >
-        
-          {/* <Link href="/"> */}
-        <p className={styles.navLink}  >Home</p>
-          {/* </Link> */}
-          {/* <Link href="/whitelist"> */}
-        <p className={styles.navLink}  >About</p>
-          {/* </Link> */}
+          <HashLink to="/#my-cool-section">
+
+        <p className={styles.navLink}  >Card</p>
+          </HashLink>
+          <HashLink to="/#rarity">
+        <p className={styles.navLink}  >Rarity</p>
+          </HashLink>
+         <HashLink to="/#categories">
+        <p className={styles.navLink}  >Categories</p>
+          </HashLink>
+        <HashLink to="/#faq">
+        <p className={styles.navLink}  >Faq</p>
+          </HashLink>
+          <HashLink to="/#team">
+        <p className={styles.navLink}  >Team</p>
+          </HashLink>
       </Nav>
-      
+      </BrowserRouter>
       {/* <Form className="d-flex" > */}
          {/* {
           //  networkError?<button type="button" className="btn-custom secondary-btn">Connect Wallet</button>:

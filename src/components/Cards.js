@@ -6,9 +6,10 @@ import Add from "../Images/add.svg"
 import Sell from "../Images/sell.svg"
 
 
+
 const Cards = () => {
   return (
-    <div className={styles.card_mainDiv}>
+    <div className={styles.card_mainDiv} id="my-cool-section">
         <Container>
             <div >
                 <Row>

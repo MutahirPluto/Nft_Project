@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Home = () => {
   return (
-   <Container>
+   <Container id="faq">
        <div className={styles.faq_main_div}>
        <div  className={styles.faq_heading_div}>
            <h2>FAQ</h2>
