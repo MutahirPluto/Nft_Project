@@ -16,6 +16,9 @@
   font-style: italic;
   margin: 5px;
 }
+.navbar_main_div{
+  border: 1px solid red;
+}
 #nav {
   max-height: 100px;
   color: white;
@@ -170,11 +173,11 @@
 }
 .rarity_div {
   /* margin-top: 2rem; */
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+  /* border: 1px solid red; */
   text-align: center;
 }
-/* .rarity_div > h3{
-} */
+
 .rarity_pera {
   color: #9fa4dd;
   margin-top: 2rem;
@@ -218,11 +221,12 @@
   /* border: 1px solid red; */
   background-color: #7266f0;
   border-radius: 20px;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   text-align: center;
   padding-top: 0px;
   height: 40px;
   padding-top: 2px;
+  /* border: 1px solid red; */
 }
 .Categories_main_div > h3 {
   font-weight: bolder;
@@ -256,7 +260,7 @@
   background-color: #202442;
   margin-top: 5rem;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 3.6rem;
   padding-bottom: 3rem;
 }
 .faq_heading_div {
@@ -305,7 +309,7 @@ a {
   /* border: 1px solid red; */
 }
 .team_div {
-  margin-top: 4rem;
+  padding-top: 6rem;
   margin-bottom: 2rem;
 }
 .team_div h2 {

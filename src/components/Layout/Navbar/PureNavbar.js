@@ -116,7 +116,7 @@ function PuraNavbar(props) {
     // console.log("networkError", networkError)
 
   return (
-    <div>
+    <div className={styles.navbar_main_div} >
         
 
 {/* {
@@ -141,7 +141,7 @@ function PuraNavbar(props) {
   
  
     <Container  >
-      <img className={styles.logo} src='https://hzpad.pluton.ltd/static/media/vector-logo.601d54a8.png'  height={80} />
+      <img className={styles.logo} src='https://d27zc942lqnax5.cloudfront.net/tbones/navbar/nav-tasty-bone-icon.svg'  height={80} />
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
     <BrowserRouter>
@@ -151,10 +151,10 @@ function PuraNavbar(props) {
         navbarScroll
         id={styles.nav}
       >
-          <HashLink to="/#my-cool-section">
+          {/* <HashLink to="/#my-cool-section">
 
         <p className={styles.navLink}  >Card</p>
-          </HashLink>
+          </HashLink> */}
           <HashLink to="/#rarity">
         <p className={styles.navLink}  >Rarity</p>
           </HashLink>

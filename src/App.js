@@ -5,15 +5,15 @@ import Home from "./components/Home"
 
 import { IMAGES, VIDEOS, LARGE_IMAGES } from "./data/data";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter, Route, Router, Routes, Switch } from 'react-router-dom';
 // import {BrowserRouter as Router} from "react-router-dom"
 import Cards from "./components/Cards"
 import Categories from "./components/Categories"
 import Faq from "./components/Faq"
 import ImageSlider from "./components/ImageSlider"
 import Team from "./components/Team"
-import Layout from "./components/Layout/Navbar/index"
+import Layout from "./components/Layout/Navbar/PureNavbar"
 import { HashLink } from "react-router-hash-link";
+import Section1 from "./components/Section1"
 
 
 
@@ -23,12 +23,6 @@ function App() {
   return (
     <div >
       <Home />
-     {/* <BrowserRouter> */}
-     {/* <HashLink to="/my-cool-page#my-cool-section">Goto Cool Section</HashLink> */}
-
-{/* <div id="my-cool-section"  style={{marginTop:"400px"}}>The coolest</div> */}
-    {/* <Home /> */}
-    
         {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/card" element={<Cards />} />
