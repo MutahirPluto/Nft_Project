@@ -89,9 +89,11 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         <h2 >New Collections</h2>
       </div>
       <div  style={{width:"70px", borderBottom:"4px solid #7266ef", margin:"0px auto", marginBottom:"40px", marginTop:"20px"}}></div>
-     <div>
+      {/* <Container width="sm"> */}
+     <div className="container-sm">
      <Slider {...settings}>{templateImages}</Slider>
      </div>
+      {/* </Container> */}
 
     {/* <div>
     <Container  style={{marginTop:"20px", textAlign:"center"}}>

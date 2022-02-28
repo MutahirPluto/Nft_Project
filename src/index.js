@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { Web3ReactProvider } from '@web3-react/core';
 import { getLibrary } from './utils/web3Library'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 ReactDOM.render(
   <React.StrictMode>

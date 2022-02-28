@@ -137,29 +137,29 @@ function PuraNavbar(props) {
           </div>
        :null
         }
-<Navbar  expand="lg" className='fixed-top'  style={{backgroundColor:"#161c2f"}} >
+<Navbar  expand="lg" className='fixed-top'  style={{backgroundColor:"#161c2f", borderBottom:"4px solid #445382"}} >
   
- 
+  <BrowserRouter>
     <Container  >
+    <HashLink to="/#">
       <img className={styles.logo} src='https://d27zc942lqnax5.cloudfront.net/tbones/navbar/nav-tasty-bone-icon.svg'  height={80} />
+      </HashLink>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
-    <BrowserRouter>
       <Nav
         className="me-auto my-2 my-lg-0"
         // style={{ maxHeight: '100px', color:"white", flex:"0.3", justifyContent:"space-between", border:"1px solid red", margin:"0px auto"}}
         navbarScroll
         id={styles.nav}
       >
-          {/* <HashLink to="/#my-cool-section">
-
-        <p className={styles.navLink}  >Card</p>
-          </HashLink> */}
           <HashLink to="/#rarity">
         <p className={styles.navLink}  >Rarity</p>
           </HashLink>
          <HashLink to="/#categories">
         <p className={styles.navLink}  >Categories</p>
+          </HashLink>
+          <HashLink to="/#roadmap">
+        <p className={styles.navLink}  >Roadmap</p>
           </HashLink>
         <HashLink to="/#faq">
         <p className={styles.navLink}  >Faq</p>
@@ -168,7 +168,6 @@ function PuraNavbar(props) {
         <p className={styles.navLink}  >Team</p>
           </HashLink>
       </Nav>
-      </BrowserRouter>
       {/* <Form className="d-flex" > */}
          {/* {
           //  networkError?<button type="button" className="btn-custom secondary-btn">Connect Wallet</button>:
@@ -221,6 +220,8 @@ function PuraNavbar(props) {
       {/* </Form> */}
     </Navbar.Collapse>
   </Container >
+  </BrowserRouter>
+
 </Navbar>
 
 </div>

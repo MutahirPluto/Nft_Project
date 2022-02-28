@@ -6,7 +6,6 @@ import teamimg2 from "../Images/teamimg2.svg"
 import teamimg3 from "../Images/teamimg3.svg"
 import teamimg4 from "../Images/teamimg4.svg"
 
-// import {Slider} from "./Slider"
 
 const Team = () => {
   return (

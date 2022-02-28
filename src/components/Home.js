@@ -21,7 +21,7 @@ const Home = () => {
         <Cards />
         <ImageSlider images={LARGE_IMAGES} />
         <Categories />
-        {/* <Roadmap /> */}
+        <Roadmap />
         <Faq />
         <Team />
     </Layout>

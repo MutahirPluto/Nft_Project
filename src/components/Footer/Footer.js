@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../style.module.css"
 import { Container, Row, Col } from "react-bootstrap";
 import footerlogo from "../../Images/footerlogo.svg"
+import twitter from "../../Images/twitter.svg"
 
 const Footer = () => {
 

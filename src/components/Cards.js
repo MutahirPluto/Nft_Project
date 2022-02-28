@@ -18,8 +18,7 @@ const Cards = () => {
                             <div className={styles.card_2nd_div}>
                             <img src={Wallet}  />
                             <h5>Set up your wallet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </p>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
                             </div>
 
                         </div>
@@ -31,8 +30,7 @@ const Cards = () => {
                             <div className={styles.card_2nd_div}>
                             <img src={Add} />
                             <h5>Add your NFT's</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </p>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
                             </div>
 
                         </div>
@@ -44,8 +42,7 @@ const Cards = () => {
                             <div className={styles.card_2nd_div}>
                             <img src={Sell} />
                             <h5>Sell your NFT's</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                            </p>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
                             </div>
 
                         </div>
