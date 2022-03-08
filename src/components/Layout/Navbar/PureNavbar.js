@@ -167,6 +167,9 @@ function PuraNavbar(props) {
           <HashLink to="/#team">
         <p className={styles.navLink}  >Team</p>
           </HashLink>
+          <HashLink to="/page#section-three">
+        <p className={styles.navLink}  >Shop</p>
+          </HashLink>
       </Nav>
       {/* <Form className="d-flex" > */}
          {/* {

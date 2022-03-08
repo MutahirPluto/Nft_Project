@@ -14,6 +14,8 @@ import Team from "./components/Team"
 import Layout from "./components/Layout/Navbar/PureNavbar"
 import { HashLink } from "react-router-hash-link";
 import Section1 from "./components/Section1"
+import Roadmap from "./components/Roadmap"
+import Navbar from "./components/Layout/Navbar/PureNavbar"
 
 
 
@@ -23,16 +25,14 @@ function App() {
   return (
     <div >
       <Home />
-        {/* <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/card" element={<Cards />} />
-          <Route path="/image" element={<ImageSlider images={LARGE_IMAGES} />}/>
-          <Route path="/catogery" element={<Categories />}/>
-          <Route path="/faq" element={<Faq />}/>
-          <Route path="/team" element={<Team/>}/>
-          
-        </Routes> */}
-      {/* </BrowserRouter> */}
+        {/* <Navbar />
+      <Section1 />
+        <Cards />
+        <ImageSlider images={LARGE_IMAGES} />
+        <Categories />
+        <Roadmap />
+        <Faq />
+        <Team /> */}
       
     </div>
   );
