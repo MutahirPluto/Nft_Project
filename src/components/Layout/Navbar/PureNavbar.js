@@ -139,7 +139,7 @@ function PuraNavbar(props) {
         }
 <Navbar  expand="lg" className='fixed-top'  style={{backgroundColor:"#161c2f", borderBottom:"4px solid #445382"}} >
   
-  <BrowserRouter>
+  {/* <BrowserRouter> */}
     <Container  >
     <HashLink to="/#">
       <img className={styles.logo} src='https://d27zc942lqnax5.cloudfront.net/tbones/navbar/nav-tasty-bone-icon.svg'  height={80} />
@@ -167,9 +167,9 @@ function PuraNavbar(props) {
           <HashLink to="/#team">
         <p className={styles.navLink}  >Team</p>
           </HashLink>
-          <HashLink to="/page#section-three">
+          <Link to="/shop">
         <p className={styles.navLink}  >Shop</p>
-          </HashLink>
+          </Link>
       </Nav>
       {/* <Form className="d-flex" > */}
          {/* {
@@ -223,7 +223,7 @@ function PuraNavbar(props) {
       {/* </Form> */}
     </Navbar.Collapse>
   </Container >
-  </BrowserRouter>
+  {/* </BrowserRouter> */}
 
 </Navbar>
 

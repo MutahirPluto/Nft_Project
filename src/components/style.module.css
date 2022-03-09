@@ -385,3 +385,24 @@ a {
     margin-bottom: 8rem;
   }
 }
+
+/* Shop */
+.shop_main_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+.heading_div{
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  color: white;
+  font-size: 25px;
+}
+.heading_div  h1{
+  font-weight: bold;
+  /* font-size: 29px; */
+  /* border: 1px solid red; */
+
+}

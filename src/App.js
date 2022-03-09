@@ -16,6 +16,8 @@ import { HashLink } from "react-router-hash-link";
 import Section1 from "./components/Section1"
 import Roadmap from "./components/Roadmap"
 import Navbar from "./components/Layout/Navbar/PureNavbar"
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Shop from "./components/Shop";
 
 
 
@@ -23,16 +25,14 @@ import Navbar from "./components/Layout/Navbar/PureNavbar"
 
 function App() {
   return (
-    <div >
-      <Home />
-        {/* <Navbar />
-      <Section1 />
-        <Cards />
-        <ImageSlider images={LARGE_IMAGES} />
-        <Categories />
-        <Roadmap />
-        <Faq />
-        <Team /> */}
+    <div >       
+        <BrowserRouter>
+        <Navbar />
+          <Routes>
+            <Route e path="/" element={<Home /> } />
+            <Route path="/shop" element={<Shop />} />
+          </Routes>
+        </BrowserRouter>
       
     </div>
   );

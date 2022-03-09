@@ -6,6 +6,9 @@ import NftImg from "../Images/nft.png";
 
 const Section1 = () => {
 
+  // function handleClick() {
+  //   history.push("/Shop");
+  // }
 
 
   return (

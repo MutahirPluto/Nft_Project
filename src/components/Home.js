@@ -8,6 +8,8 @@ import Categories from "../components/Categories"
 import Roadmap from "../components/Roadmap"
 import Faq from "../components/Faq"
 import Team from "../components/Team"
+import { Link } from 'react-router-dom';
+import Footer from './Footer/Footer';
 
 
 
@@ -15,7 +17,7 @@ import Team from "../components/Team"
 
 const Home = () => {
   return (
-    <Layout>
+    <div>
 
         <Section1 />
         <Cards />
@@ -24,7 +26,8 @@ const Home = () => {
         <Roadmap />
         <Faq />
         <Team />
-    </Layout>
+        <Footer />
+    </div>
   )
 }
 
