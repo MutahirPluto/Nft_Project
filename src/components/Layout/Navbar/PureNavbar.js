@@ -167,7 +167,7 @@ function PuraNavbar(props) {
           <HashLink to="/#team">
         <p className={styles.navLink}  >Team</p>
           </HashLink>
-          <Link to="/shop">
+          <Link to="/shop" target="_blank">
         <p className={styles.navLink}  >Shop</p>
           </Link>
       </Nav>
