@@ -29,7 +29,7 @@ const Section1 = () => {
 
 
       <Container>
-        <div style={{paddingTop:"100px"}}>
+        <div style={{paddingTop:"140px"}}>
         <Row  >
           <Col lg={6} md={6} sm={12} >
               <div  className={styles.textMain_div}>

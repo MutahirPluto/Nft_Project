@@ -26,11 +26,17 @@
   justify-content: space-between;
   margin: 0px auto;
 }
+.hash_link{
+  text-decoration: none !important;
+}
 .navLink {
   margin-top: 10px;
   cursor: pointer;
-  margin-left: 30px;
-  font-weight: 500;
+  /* margin-left: 30px; */
+  padding: 13px;
+  /* border: 1px solid red; */
+  font-weight: bolder !important;
+  font-size: 29px;
 }
 
 .hrfef {
@@ -144,6 +150,7 @@
   margin-top: 3rem;
   /* margin-bottom: 20px; */
   /* border: 1px solid red; */
+  padding-top: 6rem;
 }
 .card_mainDiv h5 {
   color: white;
@@ -273,11 +280,13 @@
 
 /* Faq */
 .faq_main_div {
-  background-color: #202442;
+  /* background-color: #202442; */
   margin-top: 6rem;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
+  width: fit-content;
+  margin: 6rem auto;
 }
 .faq_heading_div {
   /* border: 1px solid red; */
@@ -291,30 +300,29 @@ a {
 }
 .faq_heading_div h2 {
   text-shadow: 0 0 3px #7266ef, 0 0 9px #7266ef;
-}
-/* 
-.whenmint_div h4{
-  color: #7266ef !important;
-  border: 1px solid red;
-}
-.whenmint_div p {
-  color: whitesmoke;
-}
-.whenmint_p_div{
-  border: 1px solid red;
-} */
-.when_mint_div {
-  color: #7266ef;
-  margin-top: 50px;
+  font-weight: bolder !important;
+  font-size: 50px;
 }
 
 .faq_heading {
   /* border: 1px solid red; */
   margin-top: 1rem;
   color: whitesmoke;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 20px;
   /* margin-bottom: 2rem; */
+}
+
+.faq_heading h4{
+  /* border: 1px solid red; */
+  background-color: rgb(242, 194, 106);
+  font-weight: 900 !important;
+  padding: 15px 10px 15px 10px;
+  border-radius: 20px;
+  border-bottom: 5px solid #d17818 !important;
+  font-size: 30px;
+  color: #d17818;
+  margin-top: 10px;
 }
 
 /* Team */
@@ -322,7 +330,7 @@ a {
   width: 100%;
   margin: 0px auto;
   margin-bottom: 8rem;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .team_div {
   padding-top: 7rem;
