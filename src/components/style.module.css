@@ -86,7 +86,7 @@
   .Pera_Img {
     display: flex;
     flex-direction: column-reverse;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .textMain_div {
     margin: 0px auto;
@@ -330,7 +330,7 @@ a {
   width: 100%;
   margin: 0px auto;
   margin-bottom: 8rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .team_div {
   padding-top: 7rem;
