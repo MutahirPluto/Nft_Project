@@ -150,14 +150,21 @@
   margin-top: 3rem;
   /* margin-bottom: 20px; */
   /* border: 1px solid red; */
-  padding-top: 6rem;
+  padding-top: 7rem;
+}
+.aboutHeading{
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #908bbc;
 }
 .card_mainDiv h5 {
   color: white;
   padding: 20px 0px 10px 0px;
 }
 .card_mainDiv p {
-  color: #7f83b1;
+  color: white;
   line-height: 27px;
 }
 .card_mainDiv img {
@@ -171,7 +178,8 @@
 .card_div {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
-  background-color: #202442;
+  background-color: #908bbc;
+  border-radius: 15px;
   /* width: 200px; */
 }
 .card_2nd_div {
@@ -192,7 +200,7 @@
 }
 .rarity_heading {
   text-align: center;
-  color: white;
+  color: yellow;
 }
 
 /* Footer */
@@ -280,12 +288,12 @@
 
 /* Faq */
 .faq_main_div {
-  /* background-color: #202442; */
+  background-color: #202442;
   margin-top: 6rem;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
-  width: fit-content;
+  /* width: fit-content; */
   margin: 6rem auto;
 }
 .faq_heading_div {
@@ -293,6 +301,7 @@
   padding-top: 2.5rem;
   /* padding-bottom: 2.5rem; */
   color: whitesmoke;
+  
   /* border: ; */
 }
 a {
@@ -322,7 +331,10 @@ a {
   border-bottom: 5px solid #d17818 !important;
   font-size: 30px;
   color: #d17818;
-  margin-top: 10px;
+  margin-top: 19px;
+  width: fit-content;
+  margin: 20px auto;
+
 }
 
 /* Team */
@@ -355,7 +367,14 @@ a {
   font-size: 22px;
   font-weight: bolder;
 }
-
+.planet_img{
+  width: 350%;
+  height: 900px;
+  margin-top: 80px;
+  /* max-width: min-content !important; */
+  /* border: 1px solid red; */
+  
+}
 /* Footer */
 .footerLogo {
   margin-top: 2rem;

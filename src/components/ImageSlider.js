@@ -85,6 +85,25 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         </div>
       </div>
 
+      <div style={{paddingBottom:"20px"}}>
+        <Container>
+          <Row>
+            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px", backgroundColor:"#7266ef", borderRadius:"20px"}}>
+            
+            </Col>
+            <Col lg={3} md={6} sm={12} xs={12}style={{ height:"400px", backgroundColor:"blue", borderRadius:"20px"}}>
+            
+            </Col>
+            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px", backgroundColor:"red", borderRadius:"20px"}}>
+            
+            </Col>
+            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px", backgroundColor:"yellow", borderRadius:"20px"}}>
+            
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
       <div  className="heading">
         <h2 >New Collections</h2>
       </div>
