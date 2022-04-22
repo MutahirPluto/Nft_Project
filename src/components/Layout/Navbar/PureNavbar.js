@@ -209,7 +209,7 @@ function PuraNavbar(props) {
 
               {networkError ? (
                 <button type="button" className="btn-custom secondary-btn">
-                  Connect Wallet
+                  Connect <br/> Wallet
                 </button>
               ) : active ? (
                 <div>
@@ -225,7 +225,7 @@ function PuraNavbar(props) {
                     type="button"
                     className={styles.explore_btn}
                   >
-                    Connect Wallet
+                    Connect <br/> Wallet
                   </button>
                 </div>
 

@@ -87,8 +87,8 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
 
       <div style={{paddingBottom:"20px"}}>
         <Container>
-          <Row>
-            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px", backgroundColor:"#7266ef", borderRadius:"20px"}}>
+          <Row style={{gap:"0px"}}>
+            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px",backgroundColor:"#7266ef", borderRadius:"20px"}}>
             
             </Col>
             <Col lg={3} md={6} sm={12} xs={12}style={{ height:"400px", backgroundColor:"blue", borderRadius:"20px"}}>
@@ -104,7 +104,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         </Container>
       </div>
 
-      <div  className="heading">
+      <div style={{marginTop:"5rem"}} className="heading">
         <h2 >New Collections</h2>
       </div>
       <div  style={{width:"70px", borderBottom:"4px solid #7266ef", margin:"0px auto", marginBottom:"40px", marginTop:"20px"}}></div>

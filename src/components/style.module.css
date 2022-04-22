@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 .Main {
   display: flex !important;
   justify-content: space-between !important;
@@ -43,6 +44,15 @@
   color: "white";
   margin-top: 10px;
 }
+.section1MainDiv{
+  background-image: url("../Images/section1img.jpg");
+  background-position:  bottom left ;
+  padding-bottom: 300px;
+  height: 1180px !important;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  /* height: 100vh !important; */
+}
 
 .textMain_div {
   color: white;
@@ -60,7 +70,7 @@
   color: #ffffff;
   font-family: "DM Sans", Helvetica, Arial, sans-serif;
   line-height: 26px;
-  padding: 8px 40px;
+  padding: 10px 40px;
   font-weight: 800;
   font-style: normal;
   font-variant: normal;
@@ -68,7 +78,11 @@
   text-decoration: none solid rgb(255, 255, 255);
   text-align: center;
   text-indent: 0px;
-  border-radius: 12px;
+  border-radius: 20px;
+  font-weight: bolder;
+  line-height: 30px;
+  font-size: 30px;
+  /* padding: 5px 0px 5px 0px; */
   border: none;
   transition: ease-in-out 0.2s;
 }
@@ -97,7 +111,7 @@
 }
 
 .Carousel {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-height: 400px;
 }
 .network_err {
@@ -151,6 +165,9 @@
   /* margin-bottom: 20px; */
   /* border: 1px solid red; */
   padding-top: 7rem;
+  background-image: url('../Images/cloud.jpg');
+  padding-bottom: 12rem;
+  background-position: bottom;
 }
 .aboutHeading{
   color: white;
@@ -158,6 +175,15 @@
   font-weight: bolder;
   font-size: 50px;
   color: #908bbc;
+}
+.about_text{
+  text-align: center;
+  font-weight: bolder !important;
+  font-size: 30px;
+  font-family: 'Balsamiq Sans', cursive;
+  line-height: 45px !important;
+  color: #707070 !important;
+  padding: 20px 0px 20px 0px;
 }
 .card_mainDiv h5 {
   color: white;
@@ -185,6 +211,9 @@
 .card_2nd_div {
   width: 300px;
   margin-left: 1.8rem;
+}
+.card_2nd_div p{
+  overflow-wrap: break-word;
 }
 .rarity_div {
   /* margin-top: 2rem; */
@@ -292,9 +321,13 @@
   margin-top: 6rem;
   text-align: center;
   padding-top: 5rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
+  background-image: url("../Images/faqimg.jpg");
+  background-size: auto;
+  height: 100%;
   /* width: fit-content; */
-  margin: 6rem auto;
+  margin: 7rem auto;
+  /* background-repeat: no-repeat; */
 }
 .faq_heading_div {
   /* border: 1px solid red; */
@@ -342,6 +375,8 @@ a {
   width: 100%;
   margin: 0px auto;
   margin-bottom: 8rem;
+  padding-bottom: 150px;
+  background-image: url("../Images/faqimg.jpg");
   /* border: 1px solid red; */
 }
 .team_div {
@@ -351,6 +386,9 @@ a {
 .team_div h2 {
   text-align: center;
   color: white;
+  font-weight: bold;
+  /* border: 1px solid red; */
+  font-size: 40px;
 }
 .team_card_div {
   display: flex;
