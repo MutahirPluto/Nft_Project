@@ -215,11 +215,27 @@
 .card_2nd_div p{
   overflow-wrap: break-word;
 }
+
+
 .rarity_div {
   /* margin-top: 2rem; */
   /* margin-bottom: 3rem; */
   /* border: 1px solid red; */
   text-align: center;
+
+}
+.rarityBackground{
+  background-image: url("../Images/raritybackground.jpg") !important;
+  height: 100%;
+  /* border: 1px solid red; */
+
+}
+.rarityCol{
+  /* border: 1px solid red; */
+  /* width: 90%; */
+  /* padding-left: 20px; */
+  margin-top: 20px !important;
+  margin: 20px auto !important;
 }
 
 .rarity_pera {
@@ -317,17 +333,20 @@
 
 /* Faq */
 .faq_main_div {
-  background-color: #202442;
+  /* background-color: #202442; */
   margin-top: 6rem;
   text-align: center;
   padding-top: 5rem;
-  /* padding-bottom: 3rem; */
-  background-image: url("../Images/faqimg.jpg");
-  background-size: auto;
+  padding-bottom: 7rem;
+  
+  /* background-size: auto; */
   height: 100%;
   /* width: fit-content; */
   margin: 7rem auto;
   /* background-repeat: no-repeat; */
+}
+.faqBackground{
+  background-image: url("../Images/faqimg.jpg");
 }
 .faq_heading_div {
   /* border: 1px solid red; */
@@ -367,6 +386,8 @@ a {
   margin-top: 19px;
   width: fit-content;
   margin: 20px auto;
+  border: 1px solid red;
+  width: auto;
 
 }
 
@@ -436,11 +457,11 @@ a {
 }
 
 @media screen and (max-width: 765px) {
-  .team_main_div {
+  /* .team_main_div {
     width: 60%;
     margin: 0px auto;
     margin-bottom: 8rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {

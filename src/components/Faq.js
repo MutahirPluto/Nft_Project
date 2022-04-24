@@ -8,7 +8,8 @@ import PLANET2 from "../Images/PLANET2.png"
 
 const Home = () => {
   return (
-   <Container id="faq" style={{ backgroundColor:"#161c2f"}}>
+      <div className={styles.faqBackground}>
+          <Container id="faq" >
        <div className={styles.faq_main_div}>
        <div  className={styles.faq_heading_div}>
            <h2>FAQ</h2>
@@ -17,7 +18,7 @@ const Home = () => {
         <Row>
             <Col lg={3} md={3} sm={12} xs={12}>
             <div >
-            <img src={PLANET1}  className={styles.planet_img}/>
+            {/* <img src={PLANET1}  className={styles.planet_img}/> */}
             </div>
             </Col>
 
@@ -33,7 +34,7 @@ const Home = () => {
             </Col>
             <Col lg={3} md={3} sm={12} xs={12} >
             <div >
-           <img src={PLANET1} className={styles.planet_img} />
+           {/* <img src={PLANET1} className={styles.planet_img} /> */}
            </div>
             </Col>
         </Row>
@@ -49,6 +50,8 @@ const Home = () => {
 
    </div>
    </Container>
+      </div>
+   
   )
 }
 

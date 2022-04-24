@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import styles from "./style.module.css"
-
+import rarity1Img from "../Images/rarity1img.gif"
 import "./ImageSlider.css";
 
 const NextArrow = ({ onClick }) => {
@@ -75,7 +75,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
   console.log("imageIndex", imageIndex)
 
   return(
-    <div  style={{paddingTop:"7rem"}} id="rarity">
+    <div  style={{paddingTop:"7rem", paddingBottom:"4rem"}} id="rarity" className={styles.rarityBackground}>
 
       <div className={styles.rarity_div}>
         <h1  className={styles.rarity_heading}>Rarity</h1>
@@ -85,33 +85,34 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         </div>
       </div>
 
+        <Container lg>
       <div style={{paddingBottom:"20px"}}>
-        <Container>
-          <Row style={{gap:"0px"}}>
-            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px",backgroundColor:"#7266ef", borderRadius:"20px"}}>
+          <Row className="justify-content-between" style={{textAlign:"center"}}>
+            <Col lg={2} md={6} sm={12} xs={10} style={{ height:"400px",backgroundColor:"#7266ef", borderRadius:"20px"}} className={styles.rarityCol}>
+            {/* <img src={rarity1Img} /> */}
+            </Col>
+            <Col lg={2} md={6} sm={12} xs={10}style={{ height:"400px", backgroundColor:"blue", borderRadius:"20px"}} className={styles.rarityCol}>
             
             </Col>
-            <Col lg={3} md={6} sm={12} xs={12}style={{ height:"400px", backgroundColor:"blue", borderRadius:"20px"}}>
+            <Col lg={2} md={6} sm={12} xs={10} style={{ height:"400px", backgroundColor:"red", borderRadius:"20px"}} className={styles.rarityCol}>
             
             </Col>
-            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px", backgroundColor:"red", borderRadius:"20px"}}>
-            
-            </Col>
-            <Col lg={3} md={6} sm={12} xs={12} style={{ height:"400px", backgroundColor:"yellow", borderRadius:"20px"}}>
+            <Col lg={2} md={6} sm={12} xs={10} style={{ height:"400px", backgroundColor:"yellow", borderRadius:"20px"}} className={styles.rarityCol}>
             
             </Col>
           </Row>
-        </Container>
       </div>
+        </Container>
 
-      <div style={{marginTop:"5rem"}} className="heading">
+      {/* <div style={{marginTop:"5rem"}} className="heading">
         <h2 >New Collections</h2>
       </div>
       <div  style={{width:"70px", borderBottom:"4px solid #7266ef", margin:"0px auto", marginBottom:"40px", marginTop:"20px"}}></div>
-      {/* <Container width="sm"> */}
      <div className="container-sm">
      <Slider {...settings}>{templateImages}</Slider>
-     </div>
+     </div> */}
+
+     
       {/* </Container> */}
 
     {/* <div>

@@ -33,7 +33,7 @@ const Section1 = () => {
         <Row  >
           <Col lg={6} md={6} sm={12} >
               <div  className={styles.textMain_div}>
-                  <div style={{paddingTop:"100px"}}><h1 style={{fontWeight:"bolder", color:"red", fontSize:"75px"}}>SLEAZY <br />ZEBRAS</h1></div>
+                  <div ><h1 style={{fontWeight:"bolder", color:"red", fontSize:"75px"}}>SLEAZY <br />ZEBRAS</h1></div>
                   {/* <div><h1>digital items.</h1></div> */}
                   <p  className={styles.pera}>Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable</p>
                   <button className={styles.explore_btn} >Explore</button>

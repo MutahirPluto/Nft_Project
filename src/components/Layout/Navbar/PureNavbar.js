@@ -152,8 +152,8 @@ function PuraNavbar(props) {
                 height={80}
               />
             </HashLink>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
+            <Navbar.Toggle aria-controls="navbarScroll" style={{backgroundColor:"white"}} />
+            <Navbar.Collapse id="navbarScroll"  >
               <Nav
                 className="me-auto my-2 my-lg-0"
                 // style={{ maxHeight: '100px', color:"white", flex:"0.3", justifyContent:"space-between", border:"1px solid red", margin:"0px auto"}}
@@ -183,29 +183,7 @@ function PuraNavbar(props) {
                   <p className={styles.navLink}>Shop</p>
                 </Link>
               </Nav>
-              {/* <Form className="d-flex" > */}
-              {/* {
-          //  networkError?<button type="button" className="btn-custom secondary-btn">Connect Wallet</button>:
-           active && address ==  "1"
-            ? (<div>
               
-              <Button  onClick={disconnect} >Disconnect</Button>
-                  <Button   >Connected</Button>
-              </div>)
-             : (
-             <div><Button color="inherit" onClick={() => {
-              connectWallet(activate, props.setErrorMessage);
-              connect()
-              setAddress("1")
-            }} >Connect</Button>
-             
-            </div>
-            ) 
-         } */}
-
-              {/* <button>
-             Connect
-         </button> */}
 
               {networkError ? (
                 <button type="button" className="btn-custom secondary-btn">
