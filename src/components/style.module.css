@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,700&display=swap');
+
 .Main {
   display: flex !important;
   justify-content: space-between !important;
@@ -46,17 +47,25 @@
 }
 .section1MainDiv{
   background-image: url("../Images/section1img.jpg");
-  background-position:  bottom left ;
+  background-position:  bottom  ;
   padding-bottom: 300px;
-  height: 1180px !important;
+  height: auto;
+  /* height: 1180px !important; */
   /* background-repeat: no-repeat; */
   /* background-size: contain; */
   /* height: 100vh !important; */
 }
 
 .textMain_div {
-  color: white;
-  margin: 25% auto;
+  margin: 14% auto;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+.textMain_div h1{
+  /* border: 1px solid red; */
+  font-size: 90px !important;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bolder !important;
 }
 .pera {
   margin-top: 2rem;
@@ -66,9 +75,8 @@
   line-height: 30px;
 }
 .explore_btn {
-  background-color: #7366f0;
+  background-color: #0f95e8;
   color: #ffffff;
-  font-family: "DM Sans", Helvetica, Arial, sans-serif;
   line-height: 26px;
   padding: 10px 40px;
   font-weight: 800;
@@ -78,12 +86,14 @@
   text-decoration: none solid rgb(255, 255, 255);
   text-align: center;
   text-indent: 0px;
-  border-radius: 20px;
-  font-weight: bolder;
+  border-radius: 40px;
+  font-weight: 1000 !important;
   line-height: 30px;
   font-size: 30px;
   /* padding: 5px 0px 5px 0px; */
   border: none;
+  font-family: 'Balsamiq Sans', cursive;
+
   transition: ease-in-out 0.2s;
 }
 .explore_btn:hover {
@@ -161,13 +171,13 @@
   color: white !important;
 }
 .card_mainDiv {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   /* margin-bottom: 20px; */
   /* border: 1px solid red; */
   padding-top: 7rem;
   background-image: url('../Images/cloud.jpg');
   padding-bottom: 12rem;
-  background-position: bottom;
+  background-position: top bottom;
 }
 .aboutHeading{
   color: white;
@@ -462,6 +472,10 @@ a {
     margin: 0px auto;
     margin-bottom: 8rem;
   } */
+  .textMain_div{
+  margin: 18% auto;
+
+  }
 }
 
 @media screen and (max-width: 600px) {

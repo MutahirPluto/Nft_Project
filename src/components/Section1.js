@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import styles from "./style.module.css";
 import { Container, Row, Col } from "react-bootstrap";
-import NftImg from "../Images/nft.png";
+import NftImg from "../Images/headingtext.png";
 
 
 const Section1 = () => {
@@ -12,7 +12,7 @@ const Section1 = () => {
 
 
   return (
-    <div  style={{height:"100%"}} className={styles.section1MainDiv}>
+    <div   className={styles.section1MainDiv}>
       {/* <Container  >
         <div >
         
@@ -31,18 +31,18 @@ const Section1 = () => {
       <Container>
         <div style={{paddingTop:"140px"}}>
         <Row  >
-          <Col lg={6} md={6} sm={12} >
+          <Col lg={12} md={12} sm={12} >
               <div  className={styles.textMain_div}>
                   <div ><h1 style={{fontWeight:"bolder", color:"red", fontSize:"75px"}}>SLEAZY <br />ZEBRAS</h1></div>
                   {/* <div><h1>digital items.</h1></div> */}
-                  <p  className={styles.pera}>Unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable</p>
+                 
                   <button className={styles.explore_btn} >Explore</button>
               </div>
           
           </Col>
-          <Col lg={6} md={6} sm={12}  className={styles.nft_Image}>
+          {/* <Col lg={6} md={6} sm={12}  className={styles.nft_Image}>
           <img src={NftImg} width='100%' />
-          </Col>
+          </Col> */}
         </Row>
         </div>
       </Container>
