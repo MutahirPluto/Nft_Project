@@ -23,19 +23,15 @@ const Cards = () => {
                     AND DIGITAL BENIFITS WITH ACCESS TO OUR ECO SYSTEM
                 </p>
                 <Row>
-                    <Col  lg={4} md={6} sm={12} style={{marginTop:"30px"}}>
+                    <Col  lg={6} md={6} sm={12} style={{marginTop:"30px", margin:"30px auto"}} >
                         <div className={styles.card_div}>
-                            <div className={styles.card_2nd_div}>
-                            <img src={Wallet}  />
-                            <h5>Set up your wallet</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
-                            </div>
+                            
 
                         </div>
                     </Col>
 
 
-                     <Col  lg={4} md={6} sm={12} style={{marginTop:"30px"}}>
+                     {/* <Col  lg={4} md={6} sm={12} style={{marginTop:"30px"}}>
                         <div className={styles.card_div}>
                             <div className={styles.card_2nd_div}>
                             <img src={Add} />
@@ -56,7 +52,7 @@ const Cards = () => {
                             </div>
 
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </div>
             {/* <img src={cloud} style={{ width:"100%", backgroundColor:"transparent"}}/> */}
