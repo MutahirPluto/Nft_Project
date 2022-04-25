@@ -474,15 +474,15 @@ a {
 
 }
 
-@media screen and (max-width: 877px) {
+@media screen and (max-width: 950px) {
   /* .team_main_div {
     width: 100%;
     margin: 0px auto;
     margin-bottom: 8rem;
   } */
-  /* .section1container{
-    padding: 250px 0px 250px 0px;
-  } */
+  .section1container{
+    padding-bottom: 250px;
+  }
 }
 
 @media screen and (max-width: 765px) {
