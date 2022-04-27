@@ -6,6 +6,8 @@ import Add from "../Images/add.svg"
 import Sell from "../Images/sell.svg"
 import cloud from "../Images/cloud.jpg"
 import abouttext from "../Images/abouttext.png"
+import About_text from "../images/ABOUT TEXT.png"
+import About_Heading from "../images/ABOUT HEADING.png"
 
 
 
@@ -14,14 +16,17 @@ const Cards = () => {
     <div className={styles.card_mainDiv} id="my-cool-section">
         <Container>
             <div >
-                <h2 className={styles.aboutHeading}>ABOUT</h2>
-                {/* <img src={abouttext} height="200px" width="300px" /> */}
+                {/* <h2 className={styles.aboutHeading}>ABOUT</h2> */}
+                <div style={{ textAlign:"center"}}>
+                <img src={About_Heading} style={{width:"300px", backgroundColor:"transparent"}} />
+                </div>
                 <p className={styles.about_text} >SELAZY ZEBRAS ARE A COLLECTION OF 4444 UNSTABLE ZEBRAS <br/> LIVING ON THE ETHEREUM BLOCKCHAIN.<br /> THE AIH 
                     FOR THIS PROJECT IS TO CREATE A BRAND WHICH ALLOWS<br/> YOU TO EMBRACE YOUR SLEAZE.<br />
                     WE ALL HAVE OURS FLAWS BUT WHAT MATTERS IS WHO WE<br /> ARE AFTER THE FACT. WHICH IS WHY WE CREAETED A PROJECT FOR 
                     EVERYONE! WE<br/> ACT AS A BRIDGE BETWEEN WEB3 AND THE SCUZZY PHYSICAL WORLD TO BRING<br /> EXCLUSSIVE REAL LIFE
                     AND DIGITAL BENIFITS WITH ACCESS TO OUR ECO SYSTEM
                 </p>
+                {/* <img src={About_text} style={{width:"100%", margin:"0px auto", backgroundColor:"transparent"}} /> */}
                 <Row>
                     <Col  lg={6} md={6} sm={12} style={{marginTop:"30px", margin:"30px auto"}} >
                         <div className={styles.card_div}>

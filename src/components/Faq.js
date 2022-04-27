@@ -2,8 +2,10 @@ import React from 'react'
 import styles from "./style.module.css"
 import { Container, Row, Col } from "react-bootstrap";
 // import { Container, Row, Col } from "react-bootstrap";
-import PLANET1 from "../Images/PLANET1.png"
-import PLANET2 from "../Images/PLANET2.png"
+import PLANET1 from "../images/PLANET 1.png"
+import PLANET2 from "../images/PLANET 2.png"
+import Astro from "../images/ASTRO.png"
+import Faq_Heading from "../images/FAQ HEADING.png"
 
 
 const Home = () => {
@@ -12,13 +14,18 @@ const Home = () => {
           <Container id="faq" >
        <div className={styles.faq_main_div}>
        <div  className={styles.faq_heading_div}>
-           <h2>FAQ</h2>
+           {/* <h2>FAQ</h2> */}
+           <img src={Faq_Heading} />
        </div>
 
         <Row>
             <Col lg={3} md={3} sm={12} xs={12}>
-            <div >
-            {/* <img src={PLANET1}  className={styles.planet_img}/> */}
+            <div>
+            <img src={PLANET2}  className={styles.planet1Img}/>
+            </div>
+
+            <div className={styles.astroImg}>
+                <img src={Astro} />            
             </div>
             </Col>
 
@@ -34,7 +41,8 @@ const Home = () => {
             </Col>
             <Col lg={3} md={3} sm={12} xs={12} >
             <div >
-           {/* <img src={PLANET1} className={styles.planet_img} /> */}
+           
+           <img src={PLANET1}   className={styles.planet2Img} />
            </div>
             </Col>
         </Row>

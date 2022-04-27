@@ -3,6 +3,8 @@ import styles from "../style.module.css"
 import { Container, Row, Col } from "react-bootstrap";
 import footerlogo from "../../Images/footerlogo.svg"
 import twitter from "../../Images/twitter.svg"
+import Logo from "../../images/HEADER 2.png"
+
 
 const Footer = () => {
 
@@ -11,7 +13,7 @@ const Footer = () => {
         <div className={styles.footer_maindiv} >
            <Container>
             <div className={styles.footerLogo}>
-                <img src={footerlogo} /> 
+                <img src={Logo} /> 
             </div>
 
             <div>

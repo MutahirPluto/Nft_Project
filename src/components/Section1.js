@@ -18,6 +18,10 @@ import { useWeb3React } from "@web3-react/core";
 import { injectedConnector } from "../../src/utils/connectors";
 import { BrowserRouter, Route, Router, Routes, Switch } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Logo from "../images/HEADER 2.png"
+import Heading from "../images/HEADING TEXT.png"
+import PLANE1 from "../images/PLANE1.png"
+
 
 import { Link } from "react-router-dom";
 
@@ -104,7 +108,8 @@ const Section1 = () => {
       <HashLink to="/#">
         <img
           className={styles.logo}
-          src="https://d27zc942lqnax5.cloudfront.net/tbones/navbar/nav-tasty-bone-icon.svg"
+          // src="https://d27zc942lqnax5.cloudfront.net/tbones/navbar/nav-tasty-bone-icon.svg"
+          src={Logo}
           height={80}
         />
       </HashLink>
@@ -183,15 +188,20 @@ const Section1 = () => {
 
 
     <Container style={{paddingTop:"0px"}} className={styles.section1container}>
+    <div className={styles.plane_div}>
+          <img src={PLANE1} style={{ width:"200px"}} />
+        </div>
       <div >
       <Row  >
+        
         <Col lg={12} md={12} sm={12} >
             <div  className={styles.textMain_div}>
-                <div ><h1 style={{fontWeight:"bolder", color:"red", fontSize:"75px"}}>SLEAZY <br />ZEBRAS</h1></div>
+                {/* <div ><h1 style={{fontWeight:"bolder", color:"red", fontSize:"75px"}}>SLEAZY <br />ZEBRAS</h1></div> */}
+                <img src={Heading} style={{width:"60%"}}  />
                 {/* <div><h1>digital items.</h1></div> */}
                 {/* <div ><img src={NftImg} style={{border:"1px solid red"}} /></div> */}
                
-                <button className={styles.explore_btn} >Explore</button>
+                {/* <button className={styles.explore_btn} >Explore</button> */}
             </div>
         
         </Col>

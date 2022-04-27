@@ -1,5 +1,6 @@
 import React from "react";
 import roadmap from "../Images/roadmap1.svg";
+import roadmap1 from "../Images/roadmap.jpeg"
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./style.module.css"
 // import {Slider} from "./Slider"
@@ -14,7 +15,7 @@ const Home = () => {
                 <h3>Tasty Roadmap</h3>
               </div>
       <Container>
-                <img src={roadmap} width="100%"/>
+                <img src={roadmap1} width="100%"/>
       </Container>
             {/* </Col> */}
           {/* </Row> */}

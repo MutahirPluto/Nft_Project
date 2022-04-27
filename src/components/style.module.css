@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,700&family=Londrina+Outline&display=swap');
 
 .Main {
   display: flex !important;
@@ -62,17 +63,22 @@
   /* background-size: contain; */
   /* height: 100vh !important; */
 }
+/* .plane_div{
+  position: absolute;
+} */
+.plane_div img{
+  position: relative;
+  top: 50px;
+}
 
 .textMain_div {
   margin: 14% auto;
   /* border: 1px solid red; */
   text-align: center;
 }
-.textMain_div h1{
-  /* border: 1px solid red; */
-  font-size: 90px !important;
-  font-family: 'Balsamiq Sans', cursive;
-  font-weight: bolder !important;
+.textMain_div img{
+  position: relative;
+  bottom: 150px;
 }
 .pera {
   margin-top: 2rem;
@@ -198,11 +204,16 @@
 .about_text{
   text-align: center;
   font-weight: bolder !important;
-  font-size: 20px;
-  font-family: 'Balsamiq Sans', cursive;
-  line-height: 35px !important;
+  font-size: 35px;
+  font-family: 'Londrina Outline', cursive;
+  /* font-family: 'Balsamiq Sans', cursive; */
+  line-height: 40px !important;
   color: #707070 !important;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 20px 0px; 
+  margin-top: 1rem;
+
+
+
 }
 .card_mainDiv h5 {
   color: white;
@@ -349,12 +360,20 @@
 .roadmap_img_div{
   /* margin: 0px auto; */
   text-align: center;
-  /* padding-top: 7rem; */
+  /* padding-top: 3rem; */
+  /* border: 1px solid red !important; */
+  padding-bottom: 4rem;
+  background-color: black;
+}
+.roadmap_img_div img{
+  border-radius: 20px;
 }
 .roadmap_heading_div h3{
   color: white;
   padding-bottom: 2rem;
   /* border: 1px solid red; */
+  font-weight: bolder;
+  font-size: 37px;
 }
 
 /* Faq */
@@ -362,7 +381,7 @@
   /* background-color: #202442; */
   /* margin-top: 6rem; */
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 7rem;
   
   /* background-size: auto; */
@@ -374,26 +393,58 @@
 .faqBackground{
   background-image: url("../Images/faqimg.jpg");
 }
-.faq_heading_div {
+.astroImg{
+
   /* border: 1px solid red; */
-  padding-top: 2.5rem;
-  /* padding-bottom: 2.5rem; */
+  /* height: 300px; */
+  /* width: 100%; */
+  text-align: left;
+  /* position: absolute; */
+
+}
+.astroImg img{
+  width: 60%;
+  /* height: 300px; */
+  text-align: left;
+  position: relative;
+  bottom: 150px;
+}
+.planet1Img{
+  width: 200px;
+}
+.planet2Img{
+  /* position: relative;
+  top: 200px; */
+  padding-top: 20rem;
+  width: 200px;
+}
+
+@media screen and (max-width: 769px) {
+  .planet2Img{
+    /* position: relative;
+    top: 200px; */
+    padding-top: 2rem;
+    width: 200px;
+  }
+  
+}
+
+.faq_heading_div {
+
   color: whitesmoke;
   
-  /* border: ; */
+}
+.faq_heading_div img{
+  width: 200px;
 }
 a {
   color: whitesmoke !important;
 }
-.faq_heading_div h2 {
-  text-shadow: 0 0 3px #7266ef, 0 0 9px #7266ef;
-  font-weight: bolder !important;
-  font-size: 50px;
-}
+
 
 .faq_heading {
   /* border: 1px solid red; */
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   color: whitesmoke;
   /* font-weight: bold; */
   font-size: 20px;
@@ -426,25 +477,36 @@ a {
   background-image: url("../Images/faqimg.jpg");
   /* border: 1px solid red; */
 }
+
 .team_div {
   padding-top: 2rem;
   margin-bottom: 2rem;
-}
-.team_div h2 {
   text-align: center;
-  color: white;
-  font-weight: bold;
+}
+.team_div img {
+  text-align: center;
   /* border: 1px solid red; */
-  font-size: 40px;
+  margin: 0px auto !important;
+  width: 250px;
 }
 .team_card_div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 10px;
   border-radius: 20px;
 }
+/* #sunImg{
+  border: 1px solid red;
+  background-image: url("../images/PLANET\ 3.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  position: relative;
+  top:  500px;
+} */
 .card_heading_div {
   margin-left: 5px;
 }
@@ -492,7 +554,7 @@ a {
     margin-bottom: 8rem;
   } */
   .textMain_div{
-  margin: 18% auto;
+  margin: 20% auto;
 
   }
 }

@@ -22,7 +22,7 @@ const Home = () => {
         <Section1 />
         <Cards />
         <ImageSlider images={LARGE_IMAGES} />
-        <Categories />
+        {/* <Categories /> */}
         <Roadmap />
         <Faq />
         <Team />
