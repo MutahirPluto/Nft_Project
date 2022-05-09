@@ -587,3 +587,10 @@ a {
   /* border: 1px solid red; */
 
 }
+
+
+/* Work for Minting Page */
+.mint_main_div{
+  background-image: url("../Images/faqimg.jpg");
+  height: 100vh;
+}

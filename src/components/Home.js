@@ -10,6 +10,7 @@ import Faq from "../components/Faq"
 import Team from "../components/Team"
 import { Link } from 'react-router-dom';
 import Footer from './Footer/Footer';
+import Mint from './Mint';
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
 
         <Section1 />
         <Cards />
+        <Mint />
         <ImageSlider images={LARGE_IMAGES} />
         {/* <Categories /> */}
         <Roadmap />
