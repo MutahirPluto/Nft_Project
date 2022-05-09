@@ -4,7 +4,7 @@ import styles from "./style.module.css"
 
 const Mint = () => {
   return (
-    <div style={{border:"1px solid red"}} className={styles.mint_main_div}>
+    <div style={{border:"1px solid white"}} className={styles.mint_main_div}>
         <div style={{textAlign:"center",  width:"50%",padding:"40px 0px 40px 0px" ,margin:"100px auto", backgroundColor:"#eadb9e", borderRadius:"10px"}}>
             <div>
                 <p style={{color:"red", fontSize:"100px", fontWeight:"bolder"}}>1</p>
@@ -21,7 +21,7 @@ const Mint = () => {
             </div>
         </div>
         <div style={{textAlign:"center"}}>
-        <button style={{padding:"10px 30px 10px 30px", backgroundColor:"#a17ff6", textAlign:"center", color:"white",fontWeight:"bolder", fontSize:"20px"}}>
+        <button style={{padding:"10px 30px 10px 30px", backgroundColor:"#a17ff6", textAlign:"center", color:"white",fontWeight:"bolder", fontSize:"20px", borderRadius:"10px", outline:"none", border:"none"}}>
                 MINT
         </button>
         </div>
