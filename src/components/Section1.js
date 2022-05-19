@@ -21,6 +21,8 @@ import { HashLink } from "react-router-hash-link";
 import Logo from "../images/HEADER 2.png"
 import Heading from "../images/HEADING TEXT.png"
 import PLANE1 from "../images/PLANE1.png"
+import Sleazy_img from "../images/first pg text.png"
+import connect_button from "../images/connect_button.png"
 
 
 import { Link } from "react-router-dom";
@@ -155,7 +157,7 @@ const Section1 = () => {
           </div>
         ) : (
           <div>
-            <button
+            {/* <button
               onClick={() => {
                 connectWallet(activate);
               }}
@@ -163,7 +165,13 @@ const Section1 = () => {
               className={styles.explore_btn}
             >
               Connect <br/> Wallet
-            </button>
+            </button> */}
+            <img onClick={() => {
+                connectWallet(activate);
+              }}
+              type="button"
+              src={connect_button} className={styles.connect_btn} />
+
           </div>
 
           
@@ -197,7 +205,7 @@ const Section1 = () => {
         <Col lg={12} md={12} sm={12} >
             <div  className={styles.textMain_div}>
                 {/* <div ><h1 style={{fontWeight:"bolder", color:"red", fontSize:"75px"}}>SLEAZY <br />ZEBRAS</h1></div> */}
-                <img src={Heading} style={{width:"60%"}}  />
+                <img src={Sleazy_img} style={{width:"60%"}}  />
                 {/* <div><h1>digital items.</h1></div> */}
                 {/* <div ><img src={NftImg} style={{border:"1px solid red"}} /></div> */}
                

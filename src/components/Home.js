@@ -29,6 +29,7 @@ const Home = () => {
         <Faq />
         <Team />
         <Footer />
+        
     </div>
   )
 }

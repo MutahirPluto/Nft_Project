@@ -6,8 +6,8 @@ const Index = ({children}) => {
   return (
     <div  >
        <PureNavbar  />
-    {children}
-    <Footer />
+        {children}
+       <Footer />
     </div>
   )
 }

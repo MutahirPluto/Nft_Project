@@ -48,18 +48,23 @@
   font-weight: bolder !important;
   font-size: 29px;
 }
+.connect_btn{
+  width: 200px;
+}
 
 .hrfef {
   color: "white";
   margin-top: 10px;
 }
 .section1MainDiv{
-  background-image: url("../Images/section1img.jpg");
+  background-image: url("../images/first_background.png");
   background-position:  bottom  ;
   /* padding-bottom: 300px; */
   height: auto;
+  background-attachment: fixed !important;
   /* height: 1180px !important; */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  
   /* background-size: contain; */
   /* height: 100vh !important; */
 }
@@ -190,9 +195,10 @@
   /* margin-bottom: 20px; */
   /* border: 1px solid red; */
   /* padding-top: 7rem; */
-  background-image: url('../Images/cloud.jpg');
+  background-image: url('../images/about_background.jpg');
   /* padding-bottom: 12rem; */
   background-position: top bottom;
+  /* height: 200vh; */
 }
 .aboutHeading{
   color: white;
@@ -233,7 +239,7 @@
 }
 .card_div {
   padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  /* padding-bottom: 3.5rem; */
   background-color: #908bbc;
   height: 400px;
   border-radius: 15px;
@@ -262,18 +268,31 @@
 
 }
 .rarityBackground{
-  background-image: url("../Images/raritybackground.jpg") !important;
+  background-image: url("../images/rarity_bg.png") !important;
   height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   /* border: 1px solid red; */
 
 }
-.rarityCol{
+.rarityCol img{
   /* border: 1px solid red; */
   /* width: 90%; */
   /* padding-left: 20px; */
-  margin-top: 20px !important;
-  margin: 20px auto !important;
+  /* margin-top: 20px !important; */
+  /* margin: 20px auto !important; */
+  /* background-image: url("../images/box1.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center !important;
+  /* height: 200px; */
+  /* margin: auto !important; */
+  /* border: 1px solid red; */
+  /* width: 240px; */
+  /* height: 200px !important; */
 }
+
+
 
 .rarity_pera {
   color: #9fa4dd;
@@ -447,8 +466,25 @@ a {
   /* margin-top: 1rem; */
   color: whitesmoke;
   /* font-weight: bold; */
+  border: 1px solid red;
   font-size: 20px;
   /* margin-bottom: 2rem; */
+}
+
+.faq_btn{
+  background-color: rgb(242, 194, 106);
+  font-weight: 900 !important;
+  padding: 15px 10px 15px 10px;
+  /* border-radius: 40px; */
+  /* border-bottom: 5px solid #d17818 !important; */
+  font-size: 30px;
+  color: #d17818 !important;
+  /* margin-top: 19px; */
+  /* width: fit-content; */
+  /* margin: 10px auto; */
+  /* border: 1px solid red; */
+  border: none;
+  outline: none;
 }
 
 .faq_heading h4{
@@ -590,7 +626,59 @@ a {
 
 
 /* Work for Minting Page */
-.mint_main_div{
-  background-image: url("../Images/faqimg.jpg");
-  height: 100vh;
+.mint_background{
+  background-image: url("../images/mint_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 12rem !important;
 }
+.mint_main_div{
+  background-image: url("../images/mint_bg.jpg");
+  height: 140vh;
+  /* padding-bottom: 200px !important; */
+  
+}
+.btn_plus_div{
+  background-image: url("../images/button_plus.png");
+  height: 70px;
+  width: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+  cursor:  pointer !important;
+}
+.btn_minus_btn{
+  background-image: url("../images/button_minus.png");
+  height: 70px;
+  width: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+  cursor:  pointer !important;
+}
+.mint_btn{
+  background-image: url("../images/mint_button.png");
+  height: 70px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin:  30px;
+  margin: 2rem auto;
+  cursor: pointer !important;
+}
+.accordion-item{
+  border: 7px solid red !important;
+  z-index: 999 !important;
+}
+
+
+
+
+
+
+
+
+
+

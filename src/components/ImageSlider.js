@@ -5,7 +5,12 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import styles from "./style.module.css"
 import rarity1Img from "../Images/rarity1img.gif"
 import "./ImageSlider.css";
-import Rarity_Text from "../images/RARITY TEXT.png"
+import Rarity_Text from "../images/rarity text.png"
+import box1 from "../images/box1.png"
+import box2 from "../images/box2.png"
+import box3 from "../images/box3.png"
+import box4 from "../images/box4.png"
+
 
 const NextArrow = ({ onClick }) => {
   return (
@@ -90,17 +95,25 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         <Container lg>
       <div style={{paddingBottom:"20px"}}>
           <Row className="justify-content-between" style={{textAlign:"center"}}>
-            <Col lg={2} md={6} sm={12} xs={10} style={{ height:"400px",backgroundColor:"#7266ef", borderRadius:"20px"}} className={styles.rarityCol}>
-            {/* <img src={rarity1Img} /> */}
+            <Col lg={3} md={6} sm={12} xs={12} >
+              <div style={{ height:"400px"}} className={styles.rarityCol}>
+                <img src={box1} />
+             </div>
             </Col>
-            <Col lg={2} md={6} sm={12} xs={10}style={{ height:"400px", backgroundColor:"blue", borderRadius:"20px"}} className={styles.rarityCol}>
-            
+            <Col lg={3} md={6} sm={12} xs={12} >
+              <div style={{ height:"400px"}} className={styles.rarityCol}>
+              <img src={box2} />
+              </div>
             </Col>
-            <Col lg={2} md={6} sm={12} xs={10} style={{ height:"400px", backgroundColor:"red", borderRadius:"20px"}} className={styles.rarityCol}>
-            
+            <Col lg={3} md={6} sm={12} xs={12} >
+              <div style={{ height:"400px"}} className={styles.rarityCol}>
+              <img src={box3} />
+              </div>
             </Col>
-            <Col lg={2} md={6} sm={12} xs={10} style={{ height:"400px", backgroundColor:"yellow", borderRadius:"20px"}} className={styles.rarityCol}>
-            
+            <Col lg={3} md={6} sm={12} xs={12} >
+              <div style={{ height:"400px"}} className={styles.rarityCol}>
+              <img src={box4} />
+              </div>
             </Col>
           </Row>
       </div>
