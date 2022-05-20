@@ -18,7 +18,7 @@ const Home = () => {
            <img src={Faq_Heading} />
        </div>
 
-        <Row>
+        <Row style={{marginTop:"2rem"}}>
             <Col lg={3} md={3} sm={12} xs={12}>
             <div>
             <img src={PLANET2}  className={styles.planet1Img}/>
