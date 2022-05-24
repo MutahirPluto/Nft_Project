@@ -7,10 +7,6 @@ import teamimg3 from "../images/dvisor.png"
 import teamimg4 from "../images/coder.png"
 import teamimg5 from "../images/rtist.png"
 import team_Heading from "../images/TEAM HEADING.png"
-// import FOUNDER_Img from "../images/FOUNDER ICON.png"
-// import Artist_Img from "../images/ARTIST ICON.png"
-// import Development_Img from "../images/DEVELOPMENT HEAD ICON.png"
-// import Advisory_Img from "../images/ADVISORY HEAD ICON.png"
 
 
 const Team = () => {
@@ -76,60 +72,6 @@ const Team = () => {
                             
                            </div>
                     </Col>
-                    {/* <Col lg={4} md={6} sm={12} xs={12} >
-                    <div className={styles.catogeries_card} style={{backgroundColor:"#c5c6fe"}}>
-                            <Row>
-                                <Col lg={6} md={6} sm={6} xs={6}>
-                                    <div>
-                                        <img src={teamimg1}/>
-                                    </div>
-                                </Col>
-
-                                <Col lg={6} md={6} sm={6} xs={6}>
-                                        <div>
-                                            <h3></h3>
-                                            <h6></h6>
-                                        </div>
-                                </Col>
-                            </Row>
-                         </div>
-                    </Col>
-                    <Col lg={4} md={6} sm={12} xs={12} >
-                    <div className={styles.catogeries_card} style={{backgroundColor:"#c5c6fe"}}>
-                            <Row>
-                                <Col lg={6} md={6} sm={6} xs={6}>
-                                    <div>
-                                        <img src={teamimg1}/>
-                                    </div>
-                                </Col>
-
-                                <Col lg={6} md={6} sm={6} xs={6}>
-                                        <div>
-                                            <h3></h3>
-                                            <h6></h6>
-                                        </div>
-                                </Col>
-                            </Row>
-                         </div>
-                    </Col>
-                    <Col lg={4} md={6} sm={12} xs={12} >
-                    <div className={styles.catogeries_card} style={{backgroundColor:"#c5c6fe"}}>
-                            <Row>
-                                <Col lg={6} md={6} sm={6} xs={6}>
-                                    <div>
-                                        <img src={teamimg1}/>
-                                    </div>
-                                </Col>
-
-                                <Col lg={6} md={6} sm={6} xs={6}>
-                                        <div>
-                                            <h3></h3>
-                                            <h6></h6>
-                                        </div>
-                                </Col>
-                            </Row>
-                         </div>
-                    </Col> */}
                 </Row>
             </div>
         </Container>

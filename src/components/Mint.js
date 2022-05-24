@@ -27,18 +27,14 @@ const Mint = () => {
 
             <div style={{display:"flex", flexDirection:"row", justifyContent:"space-evenly"}}>
                 <div className={styles.btn_plus_div} onClick={countPlus}>
-                    {/* <button style={{padding:"10px 30px 10px 30px", fontSize:"35px", backgroundColor:"#377cca", color:"white", ontWeight:"bolder"}}>+</button> */}
                 </div>
                 <div className={styles.btn_minus_btn} onClick={countMinus}>
-                    {/* <button style={{padding:"10px 30px 10px 30px", fontSize:"40px", backgroundColor:"#377cca", color:"white", fontWeight:"bolder"}}>-</button> */}
                 </div>
 
             </div>
 
             <div className={styles.mint_btn}>
-        {/* <button style={{padding:"10px 30px 10px 30px", backgroundColor:"#a17ff6", textAlign:"center", color:"white",fontWeight:"bolder", fontSize:"20px", borderRadius:"10px", outline:"none", border:"none"}}>
-                MINT
-        </button> */}
+       
         </div>
         </div>
         

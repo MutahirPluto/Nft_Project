@@ -15,10 +15,7 @@ import { HashLink } from "react-router-hash-link";
 const Home = () => {
   return (
     <div id="categories" style={{ paddingTop:"7rem"}}>
-        {/* <BrowserRouter>
-     <HashLink to="/my-cool-page#my-cool-section">Goto Cool Section</HashLink>
-     </BrowserRouter> */}
-
+       
         <Container>
             <div className={styles.Categories_main_div}>
                 <h3>Trait Categories</h3>

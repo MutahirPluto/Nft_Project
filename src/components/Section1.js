@@ -1,28 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import NftImg from "../Images/headingtext.png";
-// import styles from "../style.css"
 import {
-  Form,
-  FormControl,
   Nav,
   Navbar,
-  NavDropdown,
-  Modal,
 } from "react-bootstrap";
-// import { Link } from "react-router-dom";
 import styles from "../../src/components/style.module.css";
-import Web3Modal from "web3modal";
 import { connectWallet } from "../../src/utils/connectWallet";
 import { useWeb3React } from "@web3-react/core";
 import { injectedConnector } from "../../src/utils/connectors";
-import { BrowserRouter, Route, Router, Routes, Switch } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../images/HEADER 2.png"
-import Heading from "../images/HEADING TEXT.png"
 import PLANE1 from "../images/PLANE1.png"
 import Sleazy_img from "../images/first pg text.png"
 import connect_button from "../images/connect_button.png"
+
+// import About_Heading from "../images/ABOUT HEADING.png"
 
 
 import { Link } from "react-router-dom";
